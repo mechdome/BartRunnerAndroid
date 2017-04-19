@@ -9,11 +9,10 @@ dependencies {
     compile 'org.springframework.android:spring-android-rest-template:1.0.1.RELEASE'
     compile 'com.squareup.okhttp:okhttp:2.7.5'
     compile 'com.davemorrissey.labs:subsampling-scale-image-view:3.6.0'
-
     compile 'com.android.support:appcompat-v7:25.0.0'
-
     apt 'com.googlecode.androidannotations:androidannotations:2.7'
-    compile "com.googlecode.androidannotations:androidannotations-api:2.7"
+    compile 'com.googlecode.androidannotations:androidannotations-api:2.7'
+    compile 'com.mechdome:MechDome-About:0.7'
 }
 
 android {
@@ -29,7 +28,7 @@ android {
         versionName "2.2.10"
         versionCode 37
 
-        minSdkVersion 14
+        minSdkVersion 16
         targetSdkVersion 25
     }
 

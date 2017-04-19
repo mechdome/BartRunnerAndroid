@@ -404,8 +404,9 @@ public class ViewDeparturesActivity extends AbstractViewActivity implements
     public boolean onOptionsItemSelected(MenuItem item) {
         int itemId = item.getItemId();
         if (itemId == android.R.id.home) {
-            RoutesListActivity_.intent(this)
-                    .flags(Intent.FLAG_ACTIVITY_CLEAR_TOP).start();
+//            RoutesListActivity_.intent(this)
+//                    .flags(Intent.FLAG_ACTIVITY_CLEAR_TOP).start();
+            finish();
             return true;
         } else if (itemId == R.id.view_on_bart_site_button) {
             startActivity(new Intent(

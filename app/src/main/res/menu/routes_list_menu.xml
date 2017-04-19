@@ -22,5 +22,9 @@
         android:title="Check elevator status"
         app:showAsAction="ifRoom|withText"
         />
-
+    <item
+        android:id="@+id/about_mechdome_item"
+        android:title="@string/about_mechdome_title"
+        app:showAsAction="ifRoom|withText"
+        />
 </menu>

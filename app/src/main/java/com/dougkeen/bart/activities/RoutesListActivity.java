@@ -45,6 +45,7 @@ import com.googlecode.androidannotations.annotations.ItemLongClick;
 import com.googlecode.androidannotations.annotations.UiThread;
 import com.googlecode.androidannotations.annotations.ViewById;
 import com.googlecode.androidannotations.annotations.rest.RestService;
+import com.mechdome.aboutmechdome.AboutMechDomeActivity;
 import com.mobeta.android.dslv.DragSortListView;
 
 @EActivity(R.layout.main)
@@ -296,7 +297,11 @@ public class RoutesListActivity extends AppCompatActivity implements TickSubscri
             origElevatorActionView = MenuItemCompat.getActionView(elevatorMenuItem);
             MenuItemCompat.setActionView(elevatorMenuItem, R.layout.progress_spinner);
             return true;
-        } else {
+        } else if (itemId == R.id.about_mechdome_item) {
+            Intent i = new Intent(this, AboutMechDomeActivity.class);
+            startActivity(i);
+            return true;
+        }else {
             return super.onOptionsItemSelected(item);
         }
     }

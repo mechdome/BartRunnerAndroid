@@ -76,6 +76,7 @@
                 <data android:mimeType="vnd.android.cursor.item/com.dougkeen.bart.arbitraryroute" />
             </intent-filter>
         </receiver>
+        <meta-data android:name="md_remove_ads" android:value="com.dougkeen.bart.MechDomeAd" />
     </application>
 
 </manifest>
