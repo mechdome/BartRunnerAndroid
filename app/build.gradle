@@ -12,8 +12,10 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.0.0'
     apt 'com.googlecode.androidannotations:androidannotations:2.7'
     compile 'com.googlecode.androidannotations:androidannotations-api:2.7'
-    compile 'com.mechdome:MechDome-About:1.4'
+    compile 'com.google.firebase:firebase-ads:11.2.0'
+    compile 'com.mechdome:MechDome-About:+'
 }
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 25
