@@ -12,7 +12,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.0.0'
     apt 'com.googlecode.androidannotations:androidannotations:2.7'
     compile 'com.googlecode.androidannotations:androidannotations-api:2.7'
-    compile 'com.mechdome:MechDome-About:0.7'
+    compile 'com.mechdome:MechDome-About:1.4'
 }
 
 android {
